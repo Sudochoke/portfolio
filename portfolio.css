@@ -1,0 +1,198 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Navbar Section */
+
+.nav_bar_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(51, 51, 51);
+    width: auto;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-bottom: 2px solid black;
+    z-index: 999;
+}
+
+.nav {
+    color: white;
+    text-decoration: none;
+    padding: 10px 10px 10px 10px;
+    margin: 0 50px 0 50px;
+}
+
+.nav:hover {
+    color: rgb(166, 166, 166);
+    border-radius: 20px;
+}
+
+/* Background_pic Section */
+
+.lpic {
+    width: auto;
+    height: 100vh;
+    margin-top: 80px;
+    background-image: url(./pic/Untitled\ design_2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: black;
+    border-bottom: 1px solid black;
+}
+
+.hi {
+    font-size: 60px;
+    position: relative;
+    top: 150px;
+    left: 50px;
+}
+
+.view_portfo {
+    position: relative;
+    top: 350px;
+    left: 150px;
+    font-size: 30px;
+    background-color: transparent;
+    padding: 10px;
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+.view_portfo:hover {
+    background-color: rgba(128, 128, 128, 0.671);
+    transform: scale(1.05);
+    transition-duration: 0.5s;
+}
+
+/* Skills Section */
+
+.skills_section {
+    width: auto;
+    height: 600px;
+    background-color: white;
+    padding: 100px 80px 50px 80px;
+}
+
+.myskills {
+    margin: 0 0 0 50px;
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+.s_img_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 70%;
+
+}
+
+.s_img {
+    width: 150px;
+    height: 150px;
+    margin: 50px 100px 0px 100px;
+}
+
+
+/* Experience Section */
+
+.experience_section {
+    width: auto;
+    height: 600px;
+    padding: 100px 80px 50px 80px;
+
+    background-color: rgb(90, 255, 128);
+}
+
+.myexperience {
+    margin: 0 0 0 50px;
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+.exp_container {
+    width: auto;
+    height: auto;
+    margin: 80px;
+}
+
+.experience_container_1 {
+    width: auto;
+    height: 100px;
+    border-top: 1px solid black;
+}
+
+.experience_container_2 {
+    width: auto;
+    height: 100px;
+    border-top: 1px solid black;
+}
+
+.experience_container_3 {
+    width: auto;
+    height: 100px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.experience {
+    font-size: 30px;
+
+}
+
+/* Education Section */
+
+
+.education_section {
+    width: auto;
+    height: 600px;
+    background-color: white;
+    padding: 100px 80px 50px 80px;
+
+}
+
+.myeducation {
+    margin: 0 0 0 50px;
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+.edu_container {
+    width: auto;
+    height: auto;
+    margin: 80px;
+}
+
+.education_container_1 {
+    width: auto;
+    height: 100px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.education {
+    font-size: 30px;
+}
+
+.classof {
+    padding: 10px;
+    font-size: 15px;
+}
+
+/* Footer Section */
+
+.footer_section {
+    width: auto;
+    height: 70px;
+    background-color: black;
+}
